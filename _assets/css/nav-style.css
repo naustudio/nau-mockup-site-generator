@@ -1,0 +1,50 @@
+ul.menu {list-style:none; margin:2px 0 0 50px; padding:0; width:1250px; float:left; z-index:999;}
+ul.menu * {margin:0; padding:0; z-index:999;}
+ul.menu a {display:block; color:#000; text-decoration:none; font-weight:normal;z-index:999;}
+ul.menu li {position:relative; float:left; margin-right:2px; z-index:999;}
+ul.menu ul {position:absolute; left:0; display:none; opacity:0; list-style:none;  font-size:12px; z-index:9999 !important;}
+ul.menu ul li {border:1px solid #E3E3E3; border-top:none; min-width:180px; margin:0; background:#F7F7F7; display:inline-block; z-index:9999 !important;}
+ul.menu ul li ul {margin-top:-15px !important}
+
+li.level3 ul li {background:url(../images/arrow.png) 168px 13px no-repeat #F7F7F7; z-index:999;}
+
+ul.menu ul li:hover {background:#FFFFFF; z-index:999;}
+
+ul.menu ul li a {display:block; padding:9px 7px; cursor: default; z-index:999;}
+ul.menu ul ul {left:195px; top:0px z-index:999;}
+
+ul.menu ul ul li {border:1px solid #E3E3E3;  min-width:120px; margin:0; background:#FFFFFF; display:inline-block; margin-top:-1px;  z-index:999;}
+ul.menu ul ul li:hover {background:#F8F8F8; border:1px solid #E3E3E3; z-index:999;}
+ul.menu ul ul li a {cursor:pointer; z-index:999;}
+
+ul.menu .menulink { padding:10px 20px 11px 25px; margin:0;  z-index:999;}
+ul.menu .menulink:hover, ul.menu .menuhover {}
+ul.menu .sub {background:url(../images/arrow.gif) 170px 13px no-repeat;}
+ul.menu .topline {border-top:1px solid #E3E3E3}
+ul.menu a:hover { color:#0072AA;}
+
+
+.mega {}
+.mega li {}
+
+
+.navhome {background:url(../images/icons/menu-icon-home.jpg) no-repeat left;}
+.navconcepts {background:url(../images/icons/menu-icon-concept.png) no-repeat left;}
+.wireframes {background:url(../images/icons/menu-icon-wireframe.png) no-repeat left; z-index:999;}
+.navjourney {background:url(../images/icons/menu-icon-execution.png) no-repeat left;}
+.mobile {background:url(../images/icons/menu-icon-mobile.png) no-repeat left;}
+.archive {background:url(../images/icons/menu-icon-download.png) no-repeat left 12px; float:right; margin:0 50px 0 0; text-decoration:none; display:block; padding:14px 0 5px 25px; color:#333;}
+
+.navhome:hover {background:url(../images/icons/menu-icon-home_hover.jpg) no-repeat left; color:#0072AA;}
+.navconcepts:hover {background:url(../images/icons/menu-icon-concept_hover.png) no-repeat left; color:#0072AA;}
+.navjourney:hover {background:url(../images/icons/menu-icon-execution_hover.png) no-repeat left; color:#0072AA; z-index:999;}
+.wireframes:hover {background:url(../images/icons/menu-icon-wireframe_hover.png) no-repeat left; color:#0072AA;}
+.mobile:hover {background:url(../images/icons/menu-icon-mobile-hover.png) no-repeat left; color:#0072AA;}
+.archive:hover {background:url(../images/icons/menu-icon-download_hover.png) no-repeat left 12px; color:#0072AA;}
+
+.navhomeselected{background:url(../images/icons/menu-icon-home_hover.jpg) no-repeat left; color:#0072AA;}
+.navconceptsselected{background:url(../images/icons/menu-icon-concept_hover.png) no-repeat left; color:#0072AA !important;}
+.navjourneyselected{background:url(../images/icons/menu-icon-execution_hover.png) no-repeat left; color:#0072AA !important;}
+.wireframesselected{background:url(../images/icons/menu-icon-wireframe_hover.png) no-repeat left; color:#0072AA; z-index:999; !important;}
+.mobileselected{background:url(../images/icons/menu-icon-mobile-hover.png) no-repeat left; color:#0072AA !important;}
+.archiveselected{background:url(../images/icons/menu-icon-download_hover.png) no-repeat left 12px; color:#0072AA !important;float:right; margin:0 50px 0 0; text-decoration:none; display:block; padding:14px 0 5px 25px; color:#333;}
